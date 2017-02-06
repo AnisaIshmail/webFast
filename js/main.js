@@ -1,7 +1,11 @@
 function redirectUser(){
 	var protocol = "http://"
 	var url = $("#search-url").val();
-	window.location = "http://googleweblight.com/?lite_url=" + protocol + url;
+	if(url == ""){
+		alert("Please enter the url");
+	}else{
+			window.location = "http://googleweblight.com/?lite_url=" + protocol + url;
+	}
 }
 
 function webFast(){
