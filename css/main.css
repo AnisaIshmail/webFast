@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 .search-ui {
 	margin-top: 10vw;
+}
+
+body{
+    font-family: 'Merriweather', serif;
 }
