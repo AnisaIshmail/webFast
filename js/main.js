@@ -2,7 +2,7 @@ function redirectUser(){
 	var protocol = "http://"
 	var url = $("#search-url").val();
 	if(url == ""){
-		alert("Please enter the url");
+		alert("Please enter a URL");
 	}else{
 			window.location = "http://googleweblight.com/?lite_url=" + protocol + url;
 	}
